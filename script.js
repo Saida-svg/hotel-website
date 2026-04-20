@@ -1,27 +1,27 @@
 const fullDiningData = {
     regime: [
-        { id: 'halal', label: 'Halal', title: 'Héritage Halal', img: '9.jpg', desc: "Une cuisine d'exception respectant rigoureusement les préceptes Halal. Viandes certifiées et saveurs authentiques." },
-        { id: 'kosher', label: 'kosher', title: 'Respect kosher', img: '10.jpg', desc: "Une gastronomie pure, préparée sous haute surveillance pour garantir la conformité aux lois alimentaires juives." },
-        { id: 'vegan', label: 'Vegan', title: 'Paradis Végétal', img: '12.webp', desc: "L'art du végétal poussé à son paroxysme. Des créations sans aucun produit animal, riches en couleurs et en nutriments." },
-        { id: 'vegetarien', label: 'Végétarien', title: 'Le Jardin Gourmand', img: '13.jpg', desc: "Une harmonie de fromages affinés, d'œufs bio et de légumes croquants pour les amoureux de la nature." }
+        { id: 'halal', label: 'Halal', title: 'Héritage Halal', img: '9.jfif', desc: "Une cuisine d'exception respectant rigoureusement les préceptes Halal. Viandes certifiées et saveurs authentiques." },
+        { id: 'kosher', label: 'kosher', title: 'Respect kosher', img: '10.jfif', desc: "Une gastronomie pure, préparée sous haute surveillance pour garantir la conformité aux lois alimentaires juives." },
+        { id: 'vegan', label: 'Vegan', title: 'Paradis Végétal', img: '12.jfif', desc: "L'art du végétal poussé à son paroxysme. Des créations sans aucun produit animal, riches en couleurs et en nutriments." },
+        { id: 'vegetarien', label: 'Végétarien', title: 'Le Jardin Gourmand', img: '13.jfif', desc: "Une harmonie de fromages affinés, d'œufs bio et de légumes croquants pour les amoureux de la nature." }
     ],
     type: [
-        { id: 'viande', label: 'Viandes', title: 'Sélection Carnée', img: '11.jpg', desc: "Bœuf Wagyu, agneau de lait et volailles fermières grillés avec précision au charbon de bois." },
-        { id: 'seafood', label: 'Fruits de Mer', title: "Miroir de l'Océan", img: '14.webp', desc: "Pêche locale du jour : langoustes grillées, tartares de thon rouge et plateaux royaux." },
-        { id: 'volaille', label: 'Volaille', title: 'Plumes de Luxe', img: '15.jpg', desc: "Canards laqués, poulets de Bresse et volailles fines aux herbes de notre jardin secret." }
+        { id: 'viande', label: 'Viandes', title: 'Sélection Carnée', img: '11.jfif', desc: "Bœuf Wagyu, agneau de lait et volailles fermières grillés avec précision au charbon de bois." },
+        { id: 'seafood', label: 'Fruits de Mer', title: "Miroir de l'Océan", img: '14.jfif', desc: "Pêche locale du jour : langoustes grillées, tartares de thon rouge et plateaux royaux." },
+        { id: 'volaille', label: 'Volaille', title: 'Plumes de Luxe', img: '15.jfif', desc: "Canards laqués, poulets de Bresse et volailles fines aux herbes de notre jardin secret." }
     ],
     cuisine: [
-        { id: 'tunisienne', label: 'Tunisienne', title: 'Soleil de Tunis', img: '16.webp', desc: "Couscous royal, Brik à l'œuf et Tajines parfumés. Le cœur battant de la Tunisie dans votre assiette." },
-        { id: 'italienne', label: 'Italienne', title: 'Bella Italia', img: '17.jpg', desc: "Pâtes al dente, risottos crémeux et pizzas au feu de bois. L'Italie authentique sous le ciel de Hammamet." },
-        { id: 'chinoise', label: 'Chinoise', title: 'Empire des Sens', img: '18.jpg', desc: "Dim sums vapeur, canard laqué et wok enflammés. Une immersion totale dans les saveurs de l'Orient." },
-        { id: 'indienne', label: 'Indienne', title: 'Route des Épices', img: '19.jpg', desc: "Currys onctueux, Naans au fromage et épices Tandoori pour une explosion de saveurs." },
-        { id: 'francaise', label: 'Française', title: 'Haute Gastronomie', img: '20.jpg', desc: "Foie gras, confits et sauces veloutées. L'élégance et le savoir-faire des grands chefs français." }
+        { id: 'tunisienne', label: 'Tunisienne', title: 'Soleil de Tunis', img: '16.jfif', desc: "Couscous royal, Brik à l'œuf et Tajines parfumés. Le cœur battant de la Tunisie dans votre assiette." },
+        { id: 'italienne', label: 'Italienne', title: 'Bella Italia', img: '17.jfif', desc: "Pâtes al dente, risottos crémeux et pizzas au feu de bois. L'Italie authentique sous le ciel de Hammamet." },
+        { id: 'chinoise', label: 'Chinoise', title: 'Empire des Sens', img: '18.jfif', desc: "Dim sums vapeur, canard laqué et wok enflammés. Une immersion totale dans les saveurs de l'Orient." },
+        { id: 'indienne', label: 'Indienne', title: 'Route des Épices', img: '19.jfif', desc: "Currys onctueux, Naans au fromage et épices Tandoori pour une explosion de saveurs." },
+        { id: 'francaise', label: 'Française', title: 'Haute Gastronomie', img: '20.jfif', desc: "Foie gras, confits et sauces veloutées. L'élégance et le savoir-faire des grands chefs français." }
     ],
     sante: [
-        { id: 'gluten', label: 'Sans Gluten', title: 'Sérénité Gluten-Free', img: '21.png', desc: "Tout le plaisir gourmand sans aucune trace de gluten. Pains et pâtisseries artisanales dédiés." },
-        { id: 'lactose', label: 'Sans Lactose', title: 'Douceur Lactée', img: '22.jpg', desc: "Des alternatives crémeuses et digestes pour savourer vos plats préférés sans lactose." },
-        { id: 'lowcarb', label: 'Faible en Glucides', title: 'Vitalité Low-Carb', img: '23.webp', desc: "Équilibre parfait pour votre silhouette. Des plats riches en protéines et légumes, pauvres en sucres." },
-        { id: 'healthy', label: 'Menu Healthy', title: "L'Atelier Équilibre", img: '24.jpeg', desc: "Une sélection de super-aliments, graines et produits frais pour booster votre énergie." }
+        { id: 'gluten', label: 'Sans Gluten', title: 'Sérénité Gluten-Free', img: '21.jfif', desc: "Tout le plaisir gourmand sans aucune trace de gluten. Pains et pâtisseries artisanales dédiés." },
+        { id: 'lactose', label: 'Sans Lactose', title: 'Douceur Lactée', img: '22.jfif', desc: "Des alternatives crémeuses et digestes pour savourer vos plats préférés sans lactose." },
+        { id: 'lowcarb', label: 'Faible en Glucides', title: 'Vitalité Low-Carb', img: '23.jfif', desc: "Équilibre parfait pour votre silhouette. Des plats riches en protéines et légumes, pauvres en sucres." },
+        { id: 'healthy', label: 'Menu Healthy', title: "L'Atelier Équilibre", img: '24.jfif', desc: "Une sélection de super-aliments, graines et produits frais pour booster votre énergie." }
     ]
 };
 
@@ -167,8 +167,8 @@ function determinePrize(deg, displayElement) {
 }
 
 const heroImages = [
-    "8.avif",
-    "9.jpg",
-    "10.jpg",
-    "11.jpg"
+    "8.jfif",
+    "9.jfif",
+    "10.jfif",
+    "11.jfif"
 ];
