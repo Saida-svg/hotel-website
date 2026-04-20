@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Royal Turquoise | Hôtel 5 Étoiles Hammamet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">ROYAL TURQUOISE</div>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#rooms">Chambres</a></li>
+            <li><a href="#dining">Resto</a></li>
+            <li><a href="#booking">Réservation</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>L'Exception à Hammamet</h1>
+            <p>Vivez le luxe absolu entre mer Méditerranée et jardins de jasmin.</p>
+            <a href="#booking" class="btn">Réserver mon séjour</a>
+        </div>
+    </header>
+
+    <section class="description">
+        <h2>Une Expérience Inoubliable</h2>
+        
+        <div class="features-container">
+            <button class="feature-btn active" data-target="desc-spa">
+                <i class="fas fa-spa"></i>
+                <span>Spa & Bien-être</span>
+            </button>
+            <button class="feature-btn" data-target="desc-pools">
+                <i class="fas fa-swimmer"></i>
+                <span>Piscines Sacrées</span>
+            </button>
+            <button class="feature-btn" data-target="desc-transfers">
+                <i class="fas fa-car"></i>
+                <span>Service VIP</span>
+            </button>
+        </div>
+
+        <div class="details-container">
+            <div id="desc-spa" class="detail-content active">
+                <div class="detail-grid">
+                    <img src="1.jfif" alt="Spa de luxe">
+                    <div class="detail-text">
+                        <h3>Le Sanctuaire Turquoise</h3>
+                        <p>Plongez dans un havre de paix de 3000 m². Notre Spa de classe mondiale propose des rituels ancestraux tunisiens, des massages aux huiles essentielles locales et une suite thermale complète. Vivez la relaxation absolue.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Hammam traditionnel</li>
+                            <li><i class="fas fa-check"></i> Massages signature</li>
+                            <li><i class="fas fa-check"></i> Soins du visage bio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desc-pools" class="detail-content">
+                <div class="detail-grid">
+                    <img src="2.jfif" alt="Piscine à débordement">
+                    <div class="detail-text">
+                        <h3>L'Infini Méditerranéen</h3>
+                        <p>Nos trois piscines à débordement semblent se jeter directement dans la mer. Que vous cherchiez l'ambiance animée du lagon principal ou la sérénité de la piscine 'Adults Only', chaque instant est une carte postale.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Piscine à débordement chauffée</li>
+                            <li><i class="fas fa-check"></i> Zone exclusive adultes</li>
+                            <li><i class="fas fa-check"></i> Service de bar en piscine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desc-transfers" class="detail-content">
+                <div class="detail-grid">
+                    <img src="3.jfif" alt="Voiture VIP">
+                    <div class="detail-text">
+                        <h3>Arrivée d'Exception</h3>
+                        <p>Votre expérience 5 étoiles commence dès votre atterrissage. Nous assurons des transferts privés et VIP depuis les aéroports de Tunis-Carthage ou d'Enfidha dans des berlines de luxe climatisées.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Chauffeur privé multilingue</li>
+                            <li><i class="fas fa-check"> </i> Accueil personnalisé</li>
+                            <li><i class="fas fa-check"> </i> Boissons fraîches à bord</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trust-indicators-luxury">
+        <div class="container">
+            <h2 class="trust-title">L'Expérience Royal Turquoise 5★</h2>
+            
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Exclusivité Membre</h3>
+                    <p>Meilleur tarif garanti et avantages de surclassement directs.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Conciergerie Clefs d'Or</h3>
+                    <p>Un majordome dédié à vos désirs, disponible 24h/24.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sérénité & Confidentialité</h3>
+                    <p>Sécurité de pointe et discrétion absolue pour nos hôtes.</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Distinction Mondiale</h3>
+                    <p>Élu parmi les plus beaux palaces de la côte tunisienne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms">
+        <h2>Sanctuaires de Repos</h2>
+        <p class="subtitle">Chaque chambre est une œuvre d'art, alliant confort moderne et élégance tunisienne.</p>
+        
+        <div class="room-grid">
+            <div class="room-card">
+                <div class="room-img" style="background-image: url('4.jfif')">
+                    <div class="room-overlay">
+                        <div class="overlay-content">
+                            <p>Parfait pour les voyageurs d'affaires ou les retraites en solo. Profitez d'un espace de travail ergonomique et d'un calme absolu.</p>
+                            <div class="amenities">
+                                <span><i class="fas fa-wifi"></i> Free Wifi</span>
+                                <span><i class="fas fa-snowflake"></i> Climatisation</span>
+                            </div>
+                            <a href="#booking" class="btn-small">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-info">
+                    <span class="price">À partir de 150DT / nuit</span>
+                    <h3>Chambre Single Émeraude</h3>
+                    <p>Vue Jardin & Balcon Privé</p>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img" style="background-image: url('5.jfif')">
+                    <div class="room-overlay">
+                        <div class="overlay-content">
+                            <p>Une évasion romantique avec un lit King-size et une baignoire îlot face à la Méditerranée.</p>
+                            <div class="amenities">
+                                <span><i class="fas fa-wine-glass"></i> Minibar offert</span>
+                                <span><i class="fas fa-water"></i> Vue Mer</span>
+                            </div>
+                            <a href="#booking" class="btn-small">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-info">
+                    <span class="price">À partir de 280DT / nuit</span>
+                    <h3>Suite Saphir Couple</h3>
+                    <p>Vue Mer Panoramique</p>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img" style="background-image: url('6.jfif')">
+                    <div class="room-overlay">
+                        <div class="overlay-content">
+                            <p>Le summum du luxe : une terrasse privée avec piscine à débordement rien que pour vous.</p>
+                            <div class="amenities">
+                                <span><i class="fas fa-swimming-pool"></i> Piscine Privée</span>
+                                <span><i class="fas fa-concierge-bell"></i> Majordome</span>
+                            </div>
+                            <a href="#booking" class="btn-small">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-info">
+                    <span class="price">À partir de 550DT / nuit</span>
+                    <h3>Villa Turquoise</h3>
+                    <p>Piscine Privée & Jardin Secret</p>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img" style="background-image: url('7.jfif')">
+                    <div class="room-overlay">
+                        <div class="overlay-content">
+                            <p>Deux chambres spacieuses, un salon majestueux et une cuisine équipée pour toute la famille.</p>
+                            <div class="amenities">
+                                <span><i class="fas fa-users"></i> 4-6 Personnes</span>
+                                <span><i class="fas fa-tv"></i> Home Cinéma</span>
+                            </div>
+                            <a href="#booking" class="btn-small">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-info">
+                    <span class="price">À partir de 420DT / nuit</span>
+                    <h3>Penthouse Royal</h3>
+                    <p>Espace Familial & Salon VIP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dining" class="dining-ultra-wide">
+        <div class="dining-header">
+            <span class="gold-badge">Gastronomie 5 Étoiles</span>
+            <h2>Une Expérience Culinaire Sans Limites</h2>
+            <p>Sélectionnez vos préférences pour découvrir nos menus personnalisés.</p>
+        </div>
+
+        <div class="main-navigation">
+            <button class="nav-btn active" onclick="changeCategory('regime',this)">Régimes & Convictions</button>
+            <button class="nav-btn" onclick="changeCategory('type',this)">Types de Produits</button>
+            <button class="nav-btn" onclick="changeCategory('cuisine',this)">Cuisines du Monde</button>
+            <button class="nav-btn" onclick="changeCategory('sante',this)">Besoins Santé</button>
+        </div>
+
+        <div id="sub-navigation" class="sub-navigation"></div>
+
+        <div id="dining-display" class="dining-viewer">
+            <div class="viewer-image" id="viewer-img"></div>
+            <div class="viewer-content">
+                <h3 id="viewer-title">Chargement...</h3>
+                <hr class="gold-line">
+                <p id="viewer-desc"></p>
+                <div class="viewer-features">
+                    <span><i class="fas fa-certificate"></i> Ingrédients Premium</span>
+                    <span><i class="fas fa-utensils"></i> Chef Dédié</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-final-experience">
+        <div class="booking-visual-panel">
+            <div class="visual-overlay-content">
+                <span class="gold-badge">Exclusivité Royal Turquoise</span>
+                <h2>Une Réservation, <br>Un Service Dédié</h2>
+                <p class="lead-text">Notre conciergerie VIP prépare votre accueil sur-mesure dès la validation de ce formulaire.</p>
+                
+                <div class="luxury-perks-list">
+                    <div class="perk-item">
+                        <i class="fas fa-percent"></i>
+                        <div>
+                            <h4>Meilleur Tarif Garanti</h4>
+                            <p>Avantages directs sans frais d'intermédiaires.</p>
+                        </div>
+                    </div>
+                    <div class="perk-item">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h4>Surclassement Prioritaire</h4>
+                            <p>Accès privilégié aux suites de catégorie supérieure.</p>
+                        </div>
+                    </div>
+                    <div class="perk-item">
+                        <i class="fas fa-shuttle-van"></i>
+                        <div>
+                            <h4>Transfert VIP</h4>
+                            <p>Accueil personnalisé dès votre arrivée à l'aéroport.</p>
+                        </div>
+                    </div>
+
+                    <div class="location-mini-square">
+                        <div class="square-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Emplacement Privilégié</span>
+                        </div>
+
+                        <h3>Le Cœur de Yasmine Hammamet</h3>
+
+                        <div class="mini-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25866.442874136653!2d10.5186!3d36.4011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd62705f4296bb%3A0x6a37825d1911470b!2sYasmine%20Hammamet!5e0!3m2!1sfr!2stn!4v1639568000000!5m2!1sfr!2stn"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+
+                        <ul class="proximity-mini-list">
+                            <li><strong>Marina</strong> <span>2 min</span></li>
+                            <li><strong>Médina</strong> <span>5 min</span></li>
+                            <li><strong>Plage Privée</strong> <span>Accès Direct</span></li>
+                        </ul>
+
+                        <a href="https://www.google.com/maps/dir//Yasmine+Hammamet" target="_blank" class="btn-map-link">
+                            Itinéraire <i class="fas fa-route"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking-form-panel">
+            <div class="form-scroll-container">
+                <form id="bookingForm" class="professional-booking-grid">
+                    
+                    <div class="form-block">
+                        <div class="block-header">
+                            <span class="step-number">01</span>
+                            <h3>Identité des Voyageurs</h3>
+                        </div>
+                        <div class="grid-row">
+                            <div class="field-group"><i class="fas fa-user"></i><input type="text" placeholder="Nom Complet" required></div>
+                            <div class="field-group"><i class="fas fa-envelope"></i><input type="email" placeholder="Email Professionnel" required></div>
+                            <div class="field-group"><i class="fas fa-phone"></i><input type="tel" placeholder="Mobile / WhatsApp" required></div>
+                            <div class="field-group"><i class="fas fa-globe"></i><input type="text" placeholder="Nationalité"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <div class="block-header">
+                            <span class="step-number">02</span>
+                            <h3>Détails du Séjour</h3>
+                        </div>
+                        <div class="grid-row">
+                            <div class="field-group"><label>Arrivée</label><input type="date" required></div>
+                            <div class="field-group"><label>Départ</label><input type="date" required></div>
+                            <div class="field-group">
+                                <i class="fas fa-bed"></i>
+                                <select required>
+                                    <option value="" disabled selected>Hébergement</option>
+                                    <option value="royal">Suite Royale</option>
+                                    <option value="villa">Villa Turquoise</option>
+                                </select>
+                            </div>
+                            <div class="field-group">
+                                <i class="fas fa-users"></i>
+                                <select>
+                                    <option value="2" selected>2 Voyageurs</option>
+                                    <option value="family">Famille</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-block">
+                        <div class="block-header">
+                            <span class="step-number">03</span>
+                            <h3>Personnalisation</h3>
+                        </div>
+                        <div class="options-grid">
+                            <label class="option-check"><input type="checkbox"> <span>Transfert Aéroport</span></label>
+                            <label class="option-check"><input type="checkbox"> <span>Accès Thalasso</span></label>
+                            <label class="option-check"><input type="checkbox"> <span>Champagne</span></label>
+                            <label class="option-check"><input type="checkbox"> <span>Dîner Romantique</span></label>
+                        </div>
+                    </div>
+
+                    <div class="field-group full-width">
+                        <i class="fas fa-concierge-bell"></i>
+                        <textarea placeholder="Préférences alimentaires, allergies, événements particuliers (Lune de miel, Anniversaire)..." rows="4"></textarea>
+                    </div>
+                    <div class="form-action">
+                        <p class="disclaimer">Vos données sont sécurisées et traitées par notre service conciergerie sous 2 heures.</p>
+                        <button type="submit" class="btn-submit-gold">Vérifier la Disponibilité & Privilèges</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <h2>Tentez votre chance !</h2>
+            
+            <div class="wheel-container">
+                <div class="wheel-pointer"></div> 
+                <div id="wheel">
+                    <div class="wheel-label" style="--i:0">🍽️ Dîner</div>
+                    <div class="wheel-label" style="--i:1">🥐 Petit-déj</div>
+                    <div class="wheel-label" style="--i:2">5% OFF</div>
+                    <div class="wheel-label" style="--i:3">💆 SPA</div>
+                    <div class="wheel-label" style="--i:4">+1 Jour</div>
+                    <div class="wheel-label" style="--i:5">10% OFF</div>
+                </div>
+
+            <div id="gameResult"></div>
+            <button id="spinBtn" class="btn" style="margin-top: 20px;">LANCER LA ROUE</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
